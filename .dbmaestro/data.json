@@ -64,6 +64,33 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "Bozberkeoz",
+          "DatabasesData": [
+            {
+              "DatabaseId": "bf7421dd-a899-4977-a970-b9151c4e1bbe",
+              "DatabaseAliasName": "dbm_sc_mssql_sb_db1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "dbm_sc_mssql_sb_db2",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Bozberkeoz",
+                "Password": "5Wke2gQ0Bf9wB6aCFK49WcR18mo94gzDX4Jg5iPgHFSD9thSR8c30SHpMzn7pK4S"
+              }
+            }
+          ]
         }
       ]
     }
