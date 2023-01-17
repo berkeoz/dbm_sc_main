@@ -92,7 +92,8 @@
             }
           ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -159,8 +160,37 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "Bozberkeoz",
+          "DatabasesData": [
+            {
+              "DatabaseId": "142c12e4-4fde-47f8-be00-4b766374cdb1",
+              "DatabaseAliasName": "dbm_sc_oracle_sb_db",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1522",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": " orclpdb.us-central1-a.c.dbmaestro-dev.internal",
+                    "userName": "DBM_SC_ORACLE_SB_USER2",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "Bozberkeoz",
+                "Password": "5Wke2gQ0Bf9wB6aCFK49WcR18mo94gzDX4Jg5iPgHFSD9thSR8c30SHpMzn7pK4S"
+              }
+            }
+          ]
         }
-      ]
+      ],
+      "DatabasesStaticDataObjects": null
     }
   ],
   "GlobalConfigurations": null
