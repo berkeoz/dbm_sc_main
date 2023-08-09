@@ -28,11 +28,16 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "DBConfiguration": {},
+          "DBConfiguration": {
+            "MetadataConfiguration": {},
+            "ValidationConfiguration": {},
+            "BuildConfiguration": {}
+          },
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "PreventCommitObjectWithConflict": false,
-          "UseCache": null
+          "UseCache": null,
+          "IgnoreTextualChangesBasedOnMetadata": true
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "C:\\Users\\admin\\Documents\\projectName"
@@ -50,7 +55,7 @@
                   "BranchName": "main",
                   "DatabaseConnectionDetails": {
                     "DBTypeName": "SQL Server",
-                    "host": "localhost",
+                    "host": "WIN-U036DAHSO11\\SQLSERVER",
                     "authType": "SqlAuthentication",
                     "userName": "sa",
                     "dbName": "dbm_sc_mssql_sb_db1",
@@ -123,11 +128,16 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "DBConfiguration": {},
+          "DBConfiguration": {
+            "MetadataConfiguration": {},
+            "ValidationConfiguration": {},
+            "BuildConfiguration": {}
+          },
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "PreventCommitObjectWithConflict": false,
-          "UseCache": null
+          "UseCache": null,
+          "IgnoreTextualChangesBasedOnMetadata": true
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": "C:\\Users\\admin\\Documents\\projectName"
@@ -193,5 +203,9 @@
       "DatabasesStaticDataObjects": null
     }
   ],
-  "GlobalConfigurations": null
+  "GlobalConfigurations": null,
+  "RepositoryConfiguration": null,
+  "GeneralConfigurations": {
+    "SupportMultiDatabasePerProject": true
+  }
 }
